@@ -17,7 +17,7 @@ Installation
 Setup
 -----
 
-Just add ``'django.contrib.staticfiles'`` and ``'jquery'`` to INSTALLED_APPS in
+Just add ``'django.contrib.staticfiles'`` and ``'django_static_jquery'`` to INSTALLED_APPS in
 your settings.py::
 
     INSTALLED_APPS = (
