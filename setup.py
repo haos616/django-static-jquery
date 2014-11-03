@@ -31,5 +31,10 @@ setup(
         'Topic :: Utilities',
     ],
     packages=['django_static_jquery'],
-     include_package_data=True,
+    package_data={
+        'django_static_jquery': [
+            'static/static_jquery/js/*.js',
+            'static/static_jquery/js/*.map',
+        ],
+    },
 )
