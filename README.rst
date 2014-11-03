@@ -13,7 +13,7 @@ Installation
 
 ::
 
-    $ pip install -e git://github.com/Haos616/django-static-jquery.git@2.1.1#egg=MyProject
+    $ pip install django-static-jquery.git==2.1.1
 Setup
 -----
 
