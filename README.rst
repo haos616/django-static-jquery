@@ -13,7 +13,7 @@ Installation
 
 ::
 
-    $ pip install django-static-jquery.git==2.1.1
+    $ pip install django-static-jquery==2.1.1
 Setup
 -----
 
