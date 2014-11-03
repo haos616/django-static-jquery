@@ -49,7 +49,7 @@ Admin template customization::
         <script type="text/javascript" src="{{ STATIC_URL }}static_jquery/js/jquery.js" />
     {% endblock %}
 
-Static files:
+Static files::
 
     static_jquery/js/jquery.js - JQuery - v2.1.1
     static_jquery/js/jquery.min.js - JQuery (min) - v2.1.1
