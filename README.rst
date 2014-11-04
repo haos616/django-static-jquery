@@ -14,6 +14,7 @@ Installation
 ::
 
     $ pip install django-static-jquery==2.1.1
+
 Setup
 -----
 
@@ -56,4 +57,3 @@ Static files::
 
     static_jquery/js/jquery-migrate.js - jQuery Migrate - v1.2.1
     static_jquery/js/jquery-migrate.min.js - jQuery Migrate (min) - v1.2.1
-
