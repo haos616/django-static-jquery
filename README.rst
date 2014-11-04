@@ -7,7 +7,7 @@ Requirements
 
 `Django <https://www.djangoproject.com/>`_ 1.3 or later
 
-`JQuery <http://jquery.com/>` _ 2.1.1
+`JQuery <http://jquery.com/>`_ 2.1.1
 
 
 Installation
