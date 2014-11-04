@@ -1,12 +1,12 @@
 Django jQuery
 =============
 
+`JQuery <http://jquery.com/>`_ 1.11.1
 
 Requirements
 ------------
 
-`Django <https://www.djangoproject.com/>`_ 1.3 or later
-
+`Django <https://www.djangoproject.com/>`_ 1.4 or later
 
 Installation
 ------------
@@ -14,6 +14,7 @@ Installation
 ::
 
     $ pip install django-static-jquery==1.11.1
+
 Setup
 -----
 
@@ -38,15 +39,17 @@ Usage
 
 You can refer to jquery in your template with::
 
-    {{ STATIC_URL }}static_jquery/js/jquery.js
-
+    {% load staticfiles %}
+    {% static 'static_jquery/js/jquery.js' %}
 
 Admin template customization::
+
+    {% load staticfiles %}
 
     {% extends "admin/base_site.html" %}
 
     {% block extrahead %}
-        <script type="text/javascript" src="{{ STATIC_URL }}static_jquery/js/jquery.js" />
+        <script type="text/javascript" src="{% static 'static_jquery/js/jquery.js' %}" />
     {% endblock %}
 
 Static files::
