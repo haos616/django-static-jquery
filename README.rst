@@ -40,7 +40,6 @@ You can refer to jquery in your template with::
 
     {{ STATIC_URL }}static_jquery/js/jquery.js
 
-
 Admin template customization::
 
     {% extends "admin/base_site.html" %}
@@ -57,3 +56,4 @@ Static files::
 
     static_jquery/js/jquery-migrate.js - jQuery Migrate - v1.2.1
     static_jquery/js/jquery-migrate.min.js - jQuery Migrate (min) - v1.2.1
+

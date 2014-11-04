@@ -3,7 +3,7 @@ from distutils.core import setup
 
 try:
     f = open(join(dirname(__file__), 'README.rst'))
-    long_description = f.read().strip()
+    long_description = f.read()
     f.close()
 except IOError:
     long_description = None
@@ -14,7 +14,7 @@ setup(
     url="https://github.com/Haos616/django-static-jquery",
     description='jQuery packaged in an handy django app to speed up new applications and deployment.',
     long_description=long_description,
-    author='Denis',
+    author='haos616',
     author_email='haos616@gmail.com',
     license='BSD',
     keywords='django jquery staticfiles'.split(),
@@ -25,7 +25,7 @@ setup(
         'Framework :: Django',
         'Intended Audience :: Developers',
         'Natural Language :: English',
-        'License :: OSI Approved :: MIT License',
+        'License :: OSI Approved :: BSD License',
         'Operating System :: OS Independent',
         'Programming Language :: Python',
         'Topic :: Utilities',
