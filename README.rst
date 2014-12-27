@@ -8,6 +8,7 @@ Requirements
 
 `Django <https://www.djangoproject.com/>`_ 1.4 or later
 
+
 Installation
 ------------
 
