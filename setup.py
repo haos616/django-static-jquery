@@ -10,16 +10,11 @@ except IOError:
 
 setup(
     name='django-static-jquery',
-    version='2.1.1',
+    version='1.11.2',
     url="https://github.com/Haos616/django-static-jquery",
     description='jQuery packaged in an handy django app to speed up new applications and deployment.',
     long_description=long_description,
     author='haos616',
-    version='1.11.1',
-    url="https://github.com/Haos616/django-static-jquery",
-    description='jQuery packaged in an handy django app to speed up new applications and deployment.',
-    long_description=long_description,
-    author='Denis',
     author_email='haos616@gmail.com',
     license='BSD',
     keywords='django jquery staticfiles'.split(),
