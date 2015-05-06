@@ -1,7 +1,7 @@
 Django jQuery
 =============
 
-`JQuery <http://jquery.com/>`_ 2.1.3
+`JQuery <http://jquery.com/>`_ 2.1.4
 
 Requirements
 ------------
@@ -13,7 +13,7 @@ Installation
 
 ::
 
-    $ pip install django-static-jquery==2.1.3
+    $ pip install django-static-jquery==2.1.4
 
 Setup
 -----
@@ -54,9 +54,9 @@ Admin template customization::
 
 Static files::
 
-    static_jquery/js/jquery.js - JQuery - v2.1.3
-    static_jquery/js/jquery.min.js - JQuery (min) - v2.1.3
-    static_jquery/js/jquery.min.map - JQuery (map) - v2.1.3
+    static_jquery/js/jquery.js - JQuery - v2.1.4
+    static_jquery/js/jquery.min.js - JQuery (min) - v2.1.4
+    static_jquery/js/jquery.min.map - JQuery (map) - v2.1.4
 
     static_jquery/js/jquery-migrate.js - jQuery Migrate - v1.2.1
     static_jquery/js/jquery-migrate.min.js - jQuery Migrate (min) - v1.2.1
